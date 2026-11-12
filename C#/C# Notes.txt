@@ -1,0 +1,265 @@
+.NET 10 (LTS), 11 (STS)
+
+Major Components of .NET 10
+
+1) CLR - Common Language Runtime
+	Memory Management, Resource Management, IO Management, Thread Management, Execution
+2) FCL - Framework Class Library
+3) CLS - Common Language Specification
+4) CTS - Common Type System
+
+Strongly Types Languages				Weakly Typed Languages 
+
+C# Language							F#, ...
+
+Application Compilation Lifecycle
+
+C# => CSC.exe => CIL [Assembly (.exe/.dll)] => CLR [JIT Compiler] => Native Code
+
+Assembly is a final deployable unit. It is a machine independent code
+
+Pre JIT [NGen.exe]
+
+Thread - [Native Threads (OS) and Green Threads (Runtimes/Virtual Machines)]
+
+
+Type Categories - Value Type and Reference Type
+
+int i=100;
+double j =10.20;
+
+Employee e1=new Employee();
+...
+...
+
+Employee e2 = new Employee();
+...
+...
+
+Employee e3 = e1;
+...
+...
+
+e1 = null;
+....
+
+e2 = null;
+
+....
+
+
+Managed Objects
+Unmanaged Objects [DB Connections, File IO, Network]
+class Employee : IDisposable{
+	IDisposable => Dispose() => Clean Up Code = >Last Line GC.SupressFinalize();
+}
+
+using(Employee e1= new Employee()){
+...
+e1=null;
+}
+
+using(SqlConnection CN = new SqlConnection(...))
+{
+
+}
+
+//CN.Dispose()
+
+//IIFE
+<script>(()=>{
+	for(ifinite){alert("You have been hacked")}
+}())</script>
+
+
+RTCFCT Framework - Prompt Engineering
+	R - Role, T - Task, C - Context, F - Output Format, C - Constraints and T - Tone
+
+
+
+----------------- Day - 2
+
+S.O.L.I.D. Principle
+
+SRP - Single Responsibility Principle
+OCP - Open Close Principle
+LSP - Liskov Substituion Principle
+ISP - Interface Segregation Principle
+DIP - Dependency Inversion Principle
+
+	Introduction to OOP 
+
+		1) Abstraction
+		2) Encapsulation [Access Modifiers - Private, Protected, Public, Internal, Protected Internal]
+		Class Types - [Abstract Class, Concret, Sealed, Static, Partial, Nested, Generic, Anonymous]
+		3) Inheritance - Resuability [Generalization - To - Specialization]
+
+			Person [Abstract] => Customer [Concret] => PrimeCustomer [Sealed]
+		Types - [Single, Multiple, Multilevel, Hyrarchy, Hybrid, ...]
+		
+	Relationships - 
+		1) IS-A [Person-Is-A-Employee]		2) HAS-A [Car-Has-A-Engine]
+
+		Association - Uses-A Relationship
+	Association is a Uses-A relationship where a class uses another class to perform some operation. One class provides services to another class
+	For Example - Employee class and EmployeeRepository class
+
+	class Employee{
+		...
+	}
+	class EmployeeRepository{
+		public List<Employee> GetAllEmployees(){
+
+		}
+		public int InsertEmployee(Employee employee){
+		
+		}
+	}
+
+Composition - Has-A Relationship
+	One class HAS-A reference to another class as an instance property. In this, child class cannot exist without parent class. Deleting parent class also deletes the child class.
+	For Example - Employee HAS-An Address [Address class can not exist if Employee class is not there]
+
+	class Address{
+		RoadNo
+		RoadName
+		Area
+		BuildNo
+		FlatNo
+	}
+
+	class Employee{
+		public Address PermanentAddress { get; set; }
+	}
+
+Aggregation - Another category of HAS-A Relationship
+	One class HAS-A reference to another class as an instance property. However, both classes can exist independently.
+	For Example - Employee HAS-A Department [Here, department can exist independently]
+
+	class Employee{
+		public Department EmpDepartment {get; set;}
+	}
+
+	Relationships Between Entities - 
+		1) One-To-One
+		2) One-To-Many
+		3) Many-To-Many
+
+
+		4) Polymorphism
+
+			Overloading, Compile Time, Static, Early Binding
+				Number of parameters, Type of Parameter, Sequence of parameters
+				Return type is never considered
+			Overriding, Run Time, Dynamic, Late Binding
+				Same method with same signature implemented in derived class
+				Must be declared with a keyword called virtual
+				Derived class must override it with Override keyword
+class Base{
+	public virtual string Message(){
+		return "Good Morning";
+	}
+}
+
+class Child : Base{
+	public override string Message(){
+		return "Good Afternoon";
+	}
+}
+
+Base b1 = new Base();
+b1.Message(); //Good Morning
+
+
+Child b1 = new Child();
+b1.Message(); //Good Afternoon
+
+Base b1 = new Child();
+b1.Message(); //Good Afternoon
+
+
+
+
+//Shadowing - Forcefully hiding base class members in derived
+class Base{
+	public string Message(){
+		return "Good Morning";
+	}
+}
+
+class Child : Base{
+	public new string Message(){
+		return "Good Afternoon";
+	}
+}
+
+Base b1 = new Base();
+b1.Message(); //Good Morning
+
+
+Child b1 = new Child();
+b1.Message(); //Good Afternoon
+
+Base b1 = new Child();
+b1.Message(); //Good Morning
+
+
+
+
+
+interface IBajajMovies{
+	BajajMovies()
+}
+interface IBajajEarlyAccess{
+	BajajEarlyAccess()
+}
+interface IBajajMoviesEarlyAccess : IBajajMovies, IBajajEarlyAccess {
+
+}
+
+SOA - Service Oriented Architecture [Web Service]
+
+class BajajECommerceService : IBajajMovies{
+
+	protected int SocialId { get; set; } 
+	BajajMovies() //100
+
+	BajajEarlyAccess()//20
+
+	BajajMusic()//30
+
+	BajajLionsGateAccess()//45
+}
+
+IBajajMovies b1 = new BajajECommerceService();
+
+IBajajMoviesEarlyAccess b2 =  new BajajECommerceService();
+b2.
+
+Method Parameter - 
+	1) Input
+	2) Out
+	3) Ref
+	4) Params
+
+
+Delegate - Function Pointer
+Events
+
+Class - [Data Members, Properties, Methods, Events and Delegates]
+
+
+Call and Execution
+	[Calling - Bottom-To-Top - Child To Base]
+	[Execution - Top-To-Bottom - Base To Child]
+
+
+
+
+
+
+
+
+
+
+
