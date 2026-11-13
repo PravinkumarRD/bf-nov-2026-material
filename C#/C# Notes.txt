@@ -1,3 +1,6 @@
+https://github.com/PravinkumarRD/bf-nov-2026-material
+
+
 .NET 10 (LTS), 11 (STS)
 
 Major Components of .NET 10
@@ -249,9 +252,74 @@ Events
 Class - [Data Members, Properties, Methods, Events and Delegates]
 
 
+Constructors - 
+
+1) Default
+2) Parameterized
+3) Copy
+4) Static
+
 Call and Execution
 	[Calling - Bottom-To-Top - Child To Base]
 	[Execution - Top-To-Bottom - Base To Child]
+
+
+CRUD Operations - 
+	PO System - Categories, Products, Customers, Carts, CartItems, Invoices, Employees, Suppliers, Shippers, Vendors
+
+
+Data  -
+	1) In Memory
+		Variable, Array, Collections
+		Array - Fixed Size, Zero Based Index, Continuous memory, Same Type, 
+			Types - 1D, 2D, ..., Jagged Array
+		Collections - 
+			Non-Generic Collection - Weakly Typed Collections
+			ArrayList, Queue, Stack, Hashtable
+				ArrayList numbers=new Arraylist();
+				numbers.Add(1000); //Reference Type [Object]
+
+				int i = Convert.ToInt32( numbers[0]); //Object
+
+
+		Converting Value Type To Reference Type - Boxing
+		Converting Reference Type to Value Type - Unboxing
+
+			Generic Collections		
+			List<T>, Stack<T>, Queue<T>, Dictionary<TKey,TValue>
+
+			List<int>, Stack<Book>, Queue<string>, Dictionary<int,Employee>
+		
+	2) File System
+		Text, JSON, Xml, CSV, DAT, ...
+	3) Database
+		SQL/Non SQL
+
+Action, Action<T> - Void
+Func, Func<T> - Return
+Predicate<T> - Conditional - Boolean False/True
+
+
+Lambda Expressions
+LINQ - Language Integrated Query
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

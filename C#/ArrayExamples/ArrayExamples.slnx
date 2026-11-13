@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="JaggedArray/JaggedArray.csproj" />
+  <Project Path="OneDArray/OneDArray.csproj" />
+  <Project Path="TwoDArray/TwoDArray.csproj" />
+</Solution>

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="PolymophismExamples/PolymophismExamples.csproj" />
+  <Project Path="ShadowingExample/ShadowingExample.csproj" />
+</Solution>
