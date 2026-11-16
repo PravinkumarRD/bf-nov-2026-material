@@ -1,0 +1,7 @@
+﻿<Products>
+  <Product ProductId="1001" ProductName="Apple 12" Price="82000" Discount="20"/>
+  <Product ProductId="1002" ProductName="Apple Tab" Price="182000" Discount="15"/>
+  <Product ProductId="1003" ProductName="Nokia 7" Price="22000" Discount="10"/>
+  <Product ProductId="1004" ProductName="Samsung Fold" Price="152000" Discount="25"/>
+  <Product ProductId="1005" ProductName="Samsung Galaxy" Price="32000" Discount="12"/>
+</Products>

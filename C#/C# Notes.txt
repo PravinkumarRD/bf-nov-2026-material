@@ -301,22 +301,116 @@ Predicate<T> - Conditional - Boolean False/True
 
 
 Lambda Expressions
-LINQ - Language Integrated Query
+LINQ - Language Integrated Query [SELECT Statement in C# and VB.NET, Etc.]
+
+	1) OLINQ - Linq-To-Object [Collections]
+	2) XLINQ - Linq-To-Xml
+	3) DLINQ - Linq-To-Data
+	...
+
+SQL DQL - Data Query Language [SELECT]
+
+select */col1, col2, ... from table
+where condition
+group by ...
+having condition ...
+order by ...;
+
+
+Language Integrated Query - [IEnumerable<T>/IQuerable<T>]
+
+from variable_name in collection/data source
+select variable_name;
+
+from variable_name in collection/data source
+where variable_name.property == value
+select variable_name;
+
+from variable_name in collection/data source
+orderby variable_name.property descedning
+select variable_name;
+
+
+from variable_name in collection/data source
+group variable_name by variable_name.property into group_variable
+select new {
+	prop1=group_variable. [Agreegate functions]
+	prop2=group_variable.Key
+};
+
+
+File Operations - 
+	System.IO [Namespace]
+		1) File - Static Class comes with number of methods which you can use for File IO operations
+		2) Working with Streams
+			1) StreamWriter
+			2) StreamReader
+			3) FileStream
+		3) DriveInfo - Gives information about all the dirves
+		4) DirectoryInfo
+		5) FileInfo
+
+Two Types of Operations - 
+
+	1) CPU Bound Operation		
+		Cache and RAM - L1, L2, L3, RAM
+	2) IO Bound Operation
+		File, Network [IPC/LAN/.../Database]
 
 
 
+Assembly [.EXE and .DLL]
+
+Dynamic Link Library - You write reusable software code which you can reference in multiple applications
+
+-----------------ADO.NET
+
+Microsoft.Data.SqlClient [Install this library from NuGet Package Manager]
+
+SqlConnection [class] - Helps you connect with Microsoft SQL Server server and a database with authentication [Windows/SQL]
+
+Constructor/Property ConnectionString - 
+	1) Data Source = Server Name/IP address
+	2) Database = Database Name
+	3) User Id = 
+	4) Password =
+	5) ....
+
+"Data Source=localhost; Database=BajajNorthwind; User Id=sa; Password=Welcome@123;"
+
+Data - 
+	1) Master Data
+	2) Transactional Data
+
+Two Architectures of ADO.NET for Data Access [CRUD Operations]
 
 
+1) Disconnected Architecture				
+		
+Connection						
+DataAdatper
+DataSet [Xml Schema - .xsd]
+	Typed Dataset [Design]
+		[Primary Key, Foreign Key, Not Null constraints]
+	Untyped Dataset [Runtime]
+		[Not Null Constraints]
+DataTable
+DataRow - RowState [Added/Modified/Unchanged/Deleted/Detached/...]
+DataColumn
+DataRelation
+...
 
 
+2) Connected Architecture
 
-
-
-
-
-
-
-
+Connection
+SqlCommand - [Queries/SPs]
+	1) ExecuteReader() - Returns SqlDataReader object - It reads your data in forward only cursor [Use this method for select statements multi columns and rows output]
+	2) ExecuteNonQuery() - Returns Integer [DML Operations]
+	3) ExecuteScalar() - Returns object [Aggregate queries]
+SqlDataReader
+	4) ExecuteXmlReader()
+	
 
 
 

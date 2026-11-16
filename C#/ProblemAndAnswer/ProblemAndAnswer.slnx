@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="LambdaExpressions/LambdaExpressions.csproj" Id="72de152d-f0f7-4d61-a795-972a7a356d29" />
   <Project Path="ProblemStatement/ProblemStatement.csproj" />
 </Solution>

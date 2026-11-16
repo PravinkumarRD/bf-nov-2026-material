@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="BajajCalculation/BajajCalculation.csproj" />
+  <Project Path="BajajLoanApp/BajajLoanApp.csproj" />
+</Solution>
