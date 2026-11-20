@@ -1,0 +1,135 @@
+What is MVC?
+Model-View-Controller
+
+Why MVC?
+
+1) Handles Separation of Concern
+2) Easy maintenance 
+3) Supports TDD - Test Driven Development
+4) Reusability 
+5) Loose Coupling
+6) Develop Scalable application
+7) Easy Testing
+8) SEO Friendly applications
+
+MVC Frameworks - 
+1) Routing [Human Readable/Testable]
+2) IoC and D.I.
+3) Authentication and Authorization 
+4) State Management
+
+-------------
+Web Application - [MVC/Razor/Blazor/Web API [RESTFul API]/gRPC]
+ASP.NET Core [Web Server - Kestrel/IIS]
+
+ASP.NET Core MVC Application Request Lifecycle [Request Pipeline]
+
+Feature-wise Folder Structure [Areas]
+
+https://localhost:2672/{area}/{controller}/{action-method}/{id?}
+
+
+Route Construction - 
+	
+
+https://localhost:2672/{controller=Home}/{action-method=Index}/{id?}
+
+Types - 
+	https://localhost:2672 [Default Route] = [/Home/Index]
+	https://localhost:2672/Employees [Named/Specific Route] [/Employees/Index]
+	https://localhost:2672/Employees/List [Named/Specific Route] [/Employees/List]
+	https://localhost:2672/Employees/Details/782 [Dynamic/Parameterized Route] [/Employees/Details/782]
+
+
+Controller - the destination where your request will be processed [Ultimate Destination - Action Method]. 
+
+How does controller work?
+1) Controller can work alone
+2) Controller can work only with model
+3) Controller can work only with view
+4) Controller can work with model and view
+	Strongly Typed Views
+
+Passing data from Controller To View  -
+	
+1) Model - View(object model)
+2) ViewBag - Dynamic object
+3) ViewData - Dictionary Object
+4) TempData - Dictionary Object
+5) ViewModel - VM
+
+
+HomeController => Controller => ControllerBase
+
+	Action Methods
+		For Example - Index() => return View();
+	Views Folder => Controller Name Folder (Home) => Index.cshtml
+
+	Razor Syntax - .cshtml [C# + Html]
+		When in .cshtml, code starts with @ sign, it is a C# Code
+			@{
+				C# Code
+			}
+		<h1>@...</h1>
+	
+
+What is Model (Entities/Classes)?
+Data Storage along with business rules and logic [Core of the application]
+
+<input data-* attributes
+
+What is View?
+User Interface [UI] which will display/add interactivity for the end user
+
+Difference between 
+	1) Layered Architecture [UI=>Model=>DAL=>DB]
+	2) Layered Architecture [UI=>Model=>Repository Pattern=>DAL=>DB]
+	3) Clean Architecture
+		Mediator and CQRS Patterns
+
+Database Connectivity - 
+	1) ADO.NET
+	2) Entity Framework Core 10 [EF Core - O/RM]
+		O - Object
+		R - Relation
+		M - Mapper
+
+		Working with EF Core using two approaches
+			1) DB First Approach/Modelling - Already has a database
+			2) Code First Approach/Modelling
+
+		DbContext - 
+			Connects with the underlying database
+			Write queries [CRUD]
+			Track Changes
+		DbSet<T>
+
+	Relationship - 
+		1) One-To-One
+		2) One-To-Many
+		3) Many-To-Many
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
