@@ -1,0 +1,38 @@
+﻿@model List<Customer>
+
+@{
+    ViewData["Title"] = "Customers List!";
+}
+
+@if (Model != null && Model.Count > 0)
+{
+    <h1>@ViewData["PageTitle"]</h1>
+    <hr />
+    <table class="table table-hover table-striped">
+        <thead>
+            <tr>
+                <th>Customer Id</th>
+                <th>Contact Name</th>
+                <th>Address</th>
+                <th>City</th>
+                <th>Joining Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var customer in Model)
+            {
+                <tr>
+                    <td>@customer.CustomerId</td>
+                    <td>@customer.ContactName</td>
+                    <td>@customer.Address</td>
+                    <td>@customer.City</td>
+                    <td>@customer.JoiningDate</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <h3>@ViewData["ErrorMessage"]</h3>
+}

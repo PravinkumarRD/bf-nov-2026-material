@@ -3,7 +3,9 @@
     <Project Path="PO.Application/PO.Application.csproj" Id="c79c1933-0a0b-4e3e-956d-3e41fe58af60" />
     <Project Path="PO.Dal/PO.Dal.csproj" />
     <Project Path="PO.Entites/PO.Entites.csproj" />
+    <Project Path="PO.Mvc.Web.UI/PO.Mvc.Web.UI.csproj" Id="857e1789-6b25-41e2-b45c-ca2d14946759" />
     <Project Path="PO.Repository/PO.Repository.csproj" Id="74257eff-a05b-4faf-bd7a-7600fc0fc090" />
+    <Project Path="PO.UI/PO.UI.csproj" Id="d524562b-ec19-4fb2-9d8c-0e325a350909" />
   </Folder>
   <Folder Name="/Tests/" />
 </Solution>

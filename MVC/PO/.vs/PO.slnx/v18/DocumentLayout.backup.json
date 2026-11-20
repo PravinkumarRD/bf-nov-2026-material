@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\PO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C79C1933-0A0B-4E3E-956D-3E41FE58AF60}|PO.Application\\PO.Application.csproj|d:\\webxtraining\\bajaj cdac nov 2026\\mvc\\po\\po.application\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C79C1933-0A0B-4E3E-956D-3E41FE58AF60}|PO.Application\\PO.Application.csproj|solutionrelative:po.application\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857E1789-6B25-41E2-B45C-CA2D14946759}|PO.Mvc.Web.UI\\PO.Mvc.Web.UI.csproj|d:\\webxtraining\\bajaj cdac nov 2026\\mvc\\po\\po.mvc.web.ui\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857E1789-6B25-41E2-B45C-CA2D14946759}|PO.Mvc.Web.UI\\PO.Mvc.Web.UI.csproj|solutionrelative:po.mvc.web.ui\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857E1789-6B25-41E2-B45C-CA2D14946759}|PO.Mvc.Web.UI\\PO.Mvc.Web.UI.csproj|d:\\webxtraining\\bajaj cdac nov 2026\\mvc\\po\\po.mvc.web.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857E1789-6B25-41E2-B45C-CA2D14946759}|PO.Mvc.Web.UI\\PO.Mvc.Web.UI.csproj|solutionrelative:po.mvc.web.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74257EFF-A05B-4FAF-BD7A-7600FC0FC090}|PO.Repository\\PO.Repository.csproj|d:\\webxtraining\\bajaj cdac nov 2026\\mvc\\po\\po.repository\\repositoryextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74257EFF-A05B-4FAF-BD7A-7600FC0FC090}|PO.Repository\\PO.Repository.csproj|solutionrelative:po.repository\\repositoryextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857E1789-6B25-41E2-B45C-CA2D14946759}|PO.Mvc.Web.UI\\PO.Mvc.Web.UI.csproj|d:\\webxtraining\\bajaj cdac nov 2026\\mvc\\po\\po.mvc.web.ui\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{857E1789-6B25-41E2-B45C-CA2D14946759}|PO.Mvc.Web.UI\\PO.Mvc.Web.UI.csproj|solutionrelative:po.mvc.web.ui\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1044271635:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\PO\\PO.Application\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "PO.Application\\ServiceExtensions.cs",
+              "ToolTip": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\PO\\PO.Application\\ServiceExtensions.cs",
+              "RelativeToolTip": "PO.Application\\ServiceExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-20T11:31:51.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RepositoryExtensions.cs",
+              "DocumentMoniker": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\PO\\PO.Repository\\RepositoryExtensions.cs",
+              "RelativeDocumentMoniker": "PO.Repository\\RepositoryExtensions.cs",
+              "ToolTip": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\PO\\PO.Repository\\RepositoryExtensions.cs",
+              "RelativeToolTip": "PO.Repository\\RepositoryExtensions.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-20T11:15:22.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\PO\\PO.Mvc.Web.UI\\Program.cs",
+              "RelativeDocumentMoniker": "PO.Mvc.Web.UI\\Program.cs",
+              "ToolTip": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\PO\\PO.Mvc.Web.UI\\Program.cs",
+              "RelativeToolTip": "PO.Mvc.Web.UI\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-20T11:10:23.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\PO\\PO.Mvc.Web.UI\\Views\\Customers\\Index.cshtml",
+              "RelativeDocumentMoniker": "PO.Mvc.Web.UI\\Views\\Customers\\Index.cshtml",
+              "ToolTip": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\PO\\PO.Mvc.Web.UI\\Views\\Customers\\Index.cshtml",
+              "RelativeToolTip": "PO.Mvc.Web.UI\\Views\\Customers\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-20T10:13:14.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\PO\\PO.Mvc.Web.UI\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "PO.Mvc.Web.UI\\Controllers\\CustomersController.cs",
+              "ToolTip": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\PO\\PO.Mvc.Web.UI\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "PO.Mvc.Web.UI\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-20T09:45:33.594Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
