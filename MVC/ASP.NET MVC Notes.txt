@@ -102,6 +102,9 @@ Database Connectivity -
 			Connects with the underlying database
 			Write queries [CRUD]
 			Track Changes
+			Committing the changes into the database
+				int SaveChanges()
+				Task<int> SaveChangesAsync()
 		DbSet<T>
 
 	Relationship - 
