@@ -11,6 +11,7 @@ Why MVC?
 6) Develop Scalable application
 7) Easy Testing
 8) SEO Friendly applications
+9) Precise control over HTML
 
 MVC Frameworks - 
 1) Routing [Human Readable/Testable]
@@ -71,6 +72,15 @@ HomeController => Controller => ControllerBase
 				C# Code
 			}
 		<h1>@...</h1>
+
+	Html Helpers - 
+		1) Html Helper Methods
+			@Html Object
+		2) Html Helper Attributes
+			It is used for changing the behaviour of the Html element and it will add attributes to the existing elements dynamically
+			asp-*
+
+	Views - a) View b) Partial View
 	
 
 What is Model (Entities/Classes)?
@@ -113,17 +123,86 @@ Database Connectivity -
 		3) Many-To-Many
 
 
+ASP.NET MVC/Web API - Feature wise folder structure - 
+
+	Area
+
+eCommerce.Mvc.UI
+	Areas
+		Customers
+			Controllers
+			
+			Models
+			
+			Views
+			
+			Data
+		Carts
+			Controllers
+			
+			Models
+			
+			Views
+			
+			Data
+
+		....
+	wwwroot
+		public resources
+	Controller
+		Home
+	Models
+		...
+	Views
+		Home
+			Index.cshtml
+		Shared
+			_Layout.cshtml [Master/Layout - Common Look and Feel]
+
+		
+Caching - Master Data
+
+	1) In-Memory
+	2) Distributed - Radius Cache Server [Key/Value]
+
+During Caching - 
+	1) How much time should we cache the data?
+		30 Minutes [Absolute Expiry Duration]
+	2) Sliding Expiry
+		5 Minutes
+	
+
+HTTP Protocol - Stateless Protocol
+
+State Management
+
+Client Side [Non-Secured Data]				Server Side [Secured Data]
+1) Query String [Name=Value&Name=Value]				1) Session [Object]
+2) Cookie [Transient/Persistent]
+3) HTML5
+	IndexedDB
+	Web Storage
+		Session Storage
+		Local Storage
 
 
 
+Carts Management
 
 
 
-
-
-
-
-
+Security - 
+	1) Authentication - Checking the identity of the user
+		a) Credentials - User Id and Password
+		b) Biometrics - 
+		c) Windows Credentials [Intranet application]
+		d) Delegation Social Networking Apps [Gmail, Facebook, LinkedIn, ...]
+	2) Authorization
+		Grant or Revoke the permissions to access certain resources of the application - 
+			Role Based Access Control
+			User Based Access Control
+	3) Security Trimming [RBAC - Role Based Access Control]
+			
 
 
 

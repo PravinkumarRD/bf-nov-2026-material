@@ -1,0 +1,24 @@
+﻿@model CustomerEmployeeVM
+@{
+    ViewData["Title"] = "Customers & Employees List!";
+}
+
+<table class="table table-hover table-striped">
+    <thead>
+        <tr>
+            <th>Employee Id</th>
+            <th>Employee Name</th>
+            <th>Employee City</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model.Employees)
+        {
+            <tr>
+                <td>@employee.EmployeeId</td>
+                <td>@employee.EmployeeName</td>
+                <td>@employee.City</td>
+            </tr>
+        }
+    </tbody>
+</table>

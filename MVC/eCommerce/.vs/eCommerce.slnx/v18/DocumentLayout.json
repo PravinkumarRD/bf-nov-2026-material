@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\eCommerce\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C8F117D-1E26-B8CC-E292-1013C0E6E7F2}|eCommerce.Mvc.UI\\eCommerce.Mvc.UI.csproj|d:\\webxtraining\\bajaj cdac nov 2026\\mvc\\ecommerce\\ecommerce.mvc.ui\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C8F117D-1E26-B8CC-E292-1013C0E6E7F2}|eCommerce.Mvc.UI\\eCommerce.Mvc.UI.csproj|solutionrelative:ecommerce.mvc.ui\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C8F117D-1E26-B8CC-E292-1013C0E6E7F2}|eCommerce.Mvc.UI\\eCommerce.Mvc.UI.csproj|d:\\webxtraining\\bajaj cdac nov 2026\\mvc\\ecommerce\\ecommerce.mvc.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C8F117D-1E26-B8CC-E292-1013C0E6E7F2}|eCommerce.Mvc.UI\\eCommerce.Mvc.UI.csproj|solutionrelative:ecommerce.mvc.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C8F117D-1E26-B8CC-E292-1013C0E6E7F2}|eCommerce.Mvc.UI\\eCommerce.Mvc.UI.csproj|d:\\webxtraining\\bajaj cdac nov 2026\\mvc\\ecommerce\\ecommerce.mvc.ui\\data\\securitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C8F117D-1E26-B8CC-E292-1013C0E6E7F2}|eCommerce.Mvc.UI\\eCommerce.Mvc.UI.csproj|solutionrelative:ecommerce.mvc.ui\\data\\securitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C8F117D-1E26-B8CC-E292-1013C0E6E7F2}|eCommerce.Mvc.UI\\eCommerce.Mvc.UI.csproj|d:\\webxtraining\\bajaj cdac nov 2026\\mvc\\ecommerce\\ecommerce.mvc.ui\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C8F117D-1E26-B8CC-E292-1013C0E6E7F2}|eCommerce.Mvc.UI\\eCommerce.Mvc.UI.csproj|solutionrelative:ecommerce.mvc.ui\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C8F117D-1E26-B8CC-E292-1013C0E6E7F2}|eCommerce.Mvc.UI\\eCommerce.Mvc.UI.csproj|d:\\webxtraining\\bajaj cdac nov 2026\\mvc\\ecommerce\\ecommerce.mvc.ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2C8F117D-1E26-B8CC-E292-1013C0E6E7F2}|eCommerce.Mvc.UI\\eCommerce.Mvc.UI.csproj|solutionrelative:ecommerce.mvc.ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1044271635:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\eCommerce\\eCommerce.Mvc.UI\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "eCommerce.Mvc.UI\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\eCommerce\\eCommerce.Mvc.UI\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "eCommerce.Mvc.UI\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-24T12:52:08.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SecurityDbContext.cs",
+              "DocumentMoniker": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\eCommerce\\eCommerce.Mvc.UI\\Data\\SecurityDbContext.cs",
+              "RelativeDocumentMoniker": "eCommerce.Mvc.UI\\Data\\SecurityDbContext.cs",
+              "ToolTip": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\eCommerce\\eCommerce.Mvc.UI\\Data\\SecurityDbContext.cs",
+              "RelativeToolTip": "eCommerce.Mvc.UI\\Data\\SecurityDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAACFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T12:43:48.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\eCommerce\\eCommerce.Mvc.UI\\Data\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "eCommerce.Mvc.UI\\Data\\ApplicationUser.cs",
+              "ToolTip": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\eCommerce\\eCommerce.Mvc.UI\\Data\\ApplicationUser.cs",
+              "RelativeToolTip": "eCommerce.Mvc.UI\\Data\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T12:43:41.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\eCommerce\\eCommerce.Mvc.UI\\appsettings.json",
+              "RelativeDocumentMoniker": "eCommerce.Mvc.UI\\appsettings.json",
+              "ToolTip": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\eCommerce\\eCommerce.Mvc.UI\\appsettings.json",
+              "RelativeToolTip": "eCommerce.Mvc.UI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-24T12:12:32.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\eCommerce\\eCommerce.Mvc.UI\\Program.cs",
+              "RelativeDocumentMoniker": "eCommerce.Mvc.UI\\Program.cs",
+              "ToolTip": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\eCommerce\\eCommerce.Mvc.UI\\Program.cs",
+              "RelativeToolTip": "eCommerce.Mvc.UI\\Program.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAABUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T11:45:46.684Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

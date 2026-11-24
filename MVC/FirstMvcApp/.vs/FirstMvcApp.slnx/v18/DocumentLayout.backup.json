@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\FirstMvcApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B342553-7A97-DB0D-A402-41067A8B3015}|FirstMvcApp\\FirstMvcApp.csproj|d:\\webxtraining\\bajaj cdac nov 2026\\mvc\\firstmvcapp\\firstmvcapp\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B342553-7A97-DB0D-A402-41067A8B3015}|FirstMvcApp\\FirstMvcApp.csproj|solutionrelative:firstmvcapp\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B342553-7A97-DB0D-A402-41067A8B3015}|FirstMvcApp\\FirstMvcApp.csproj|d:\\webxtraining\\bajaj cdac nov 2026\\mvc\\firstmvcapp\\firstmvcapp\\views\\employees\\bangalore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B342553-7A97-DB0D-A402-41067A8B3015}|FirstMvcApp\\FirstMvcApp.csproj|solutionrelative:firstmvcapp\\views\\employees\\bangalore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B342553-7A97-DB0D-A402-41067A8B3015}|FirstMvcApp\\FirstMvcApp.csproj|d:\\webxtraining\\bajaj cdac nov 2026\\mvc\\firstmvcapp\\firstmvcapp\\views\\employees\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B342553-7A97-DB0D-A402-41067A8B3015}|FirstMvcApp\\FirstMvcApp.csproj|solutionrelative:firstmvcapp\\views\\employees\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B342553-7A97-DB0D-A402-41067A8B3015}|FirstMvcApp\\FirstMvcApp.csproj|d:\\webxtraining\\bajaj cdac nov 2026\\mvc\\firstmvcapp\\firstmvcapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B342553-7A97-DB0D-A402-41067A8B3015}|FirstMvcApp\\FirstMvcApp.csproj|solutionrelative:firstmvcapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B342553-7A97-DB0D-A402-41067A8B3015}|FirstMvcApp\\FirstMvcApp.csproj|d:\\webxtraining\\bajaj cdac nov 2026\\mvc\\firstmvcapp\\firstmvcapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B342553-7A97-DB0D-A402-41067A8B3015}|FirstMvcApp\\FirstMvcApp.csproj|solutionrelative:firstmvcapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B342553-7A97-DB0D-A402-41067A8B3015}|FirstMvcApp\\FirstMvcApp.csproj|d:\\webxtraining\\bajaj cdac nov 2026\\mvc\\firstmvcapp\\firstmvcapp\\views\\employees\\office.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B342553-7A97-DB0D-A402-41067A8B3015}|FirstMvcApp\\FirstMvcApp.csproj|solutionrelative:firstmvcapp\\views\\employees\\office.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B342553-7A97-DB0D-A402-41067A8B3015}|FirstMvcApp\\FirstMvcApp.csproj|d:\\webxtraining\\bajaj cdac nov 2026\\mvc\\firstmvcapp\\firstmvcapp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B342553-7A97-DB0D-A402-41067A8B3015}|FirstMvcApp\\FirstMvcApp.csproj|solutionrelative:firstmvcapp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1044271635:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bangalore.cshtml",
+              "DocumentMoniker": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\FirstMvcApp\\FirstMvcApp\\Views\\Employees\\Bangalore.cshtml",
+              "RelativeDocumentMoniker": "FirstMvcApp\\Views\\Employees\\Bangalore.cshtml",
+              "ToolTip": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\FirstMvcApp\\FirstMvcApp\\Views\\Employees\\Bangalore.cshtml*",
+              "RelativeToolTip": "FirstMvcApp\\Views\\Employees\\Bangalore.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-19T05:13:36.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\FirstMvcApp\\FirstMvcApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FirstMvcApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\FirstMvcApp\\FirstMvcApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FirstMvcApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-19T04:57:38.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\FirstMvcApp\\FirstMvcApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FirstMvcApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\FirstMvcApp\\FirstMvcApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FirstMvcApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-19T04:48:01.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\FirstMvcApp\\FirstMvcApp\\Views\\Employees\\List.cshtml",
+              "RelativeDocumentMoniker": "FirstMvcApp\\Views\\Employees\\List.cshtml",
+              "ToolTip": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\FirstMvcApp\\FirstMvcApp\\Views\\Employees\\List.cshtml",
+              "RelativeToolTip": "FirstMvcApp\\Views\\Employees\\List.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-18T10:47:55.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Office.cshtml",
+              "DocumentMoniker": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\FirstMvcApp\\FirstMvcApp\\Views\\Employees\\Office.cshtml",
+              "RelativeDocumentMoniker": "FirstMvcApp\\Views\\Employees\\Office.cshtml",
+              "ToolTip": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\FirstMvcApp\\FirstMvcApp\\Views\\Employees\\Office.cshtml",
+              "RelativeToolTip": "FirstMvcApp\\Views\\Employees\\Office.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-18T10:40:21.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\FirstMvcApp\\FirstMvcApp\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "FirstMvcApp\\Models\\Employee.cs",
+              "ToolTip": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\FirstMvcApp\\FirstMvcApp\\Models\\Employee.cs",
+              "RelativeToolTip": "FirstMvcApp\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T10:24:57.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\FirstMvcApp\\FirstMvcApp\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "FirstMvcApp\\Controllers\\EmployeesController.cs",
+              "ToolTip": "D:\\WebxTraining\\Bajaj CDAC Nov 2026\\MVC\\FirstMvcApp\\FirstMvcApp\\Controllers\\EmployeesController.cs*",
+              "RelativeToolTip": "FirstMvcApp\\Controllers\\EmployeesController.cs*",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwDEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T10:11:26.522Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
