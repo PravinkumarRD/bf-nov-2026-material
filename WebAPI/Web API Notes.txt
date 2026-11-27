@@ -1,0 +1,82 @@
+REST (Representational State Transfer) is an architectural style for building networked systems, defined by Roy Fielding in 2000 through six specific design constraints. REST itself is a broader set of rules for how data and state should behave across any distributed network.
+
+The 6 Architectural Constraints of REST
+
+To be considered truly "RESTful" by Roy Fielding's original definition, a system must follow six constraints:
+1. Client-Server Separation: The user interface (client) and data storage/logic (server) must remain completely independent. Either side can evolve or be replaced without breaking the other, as long as the interface between them stays consistent.
+2. Statelessness: The server must not store any client session state between requests. Every incoming request from a client must contain all the information (such as authentication tokens and parameters) needed for the server to understand and process it.
+3. Cacheability: Responses from the server must explicitly label themselves as cacheable or non-cacheable. When cacheable, clients or intermediaries can reuse that response data for identical future requests, improving speed and reducing server load.
+4. Uniform Interface: All components must interact through a single, standardized contract rather than custom, endpoint-specific rules. This is broken down into four sub-rules:
+	• Resource identification: Every entity is uniquely identified (e.g., via a URI).
+	• Manipulation through representations: Clients modify resources by sending representations (like JSON or XML) of the desired state.
+	• Self-descriptive messages: Each message includes enough metadata (like Content-Type headers and HTTP status codes) to explain how to process it.
+	• HATEOAS (Hypermedia): Clients navigate application state dynamically using hypermedia links provided inside responses.
+5. Layered System: A client cannot tell whether it is connected directly to the end server or to an intermediary (such as a load balancer, proxy, or API gateway). This allows you to add security layers, caching, or scaling infrastructure transparently.
+
+
+
+Richardson Maturity Model (RMM) Levels/Rules
+The Richardson Maturity Model measures how well an API uses the web's protocol (HTTP)
+-------
+
+Level 0: The Swamp of POX (Plain Old XML/JSON)
+
+• Single URI. All requests are sent to one single endpoint.
+• Transport tunneling. HTTP is used only to pass messages back and forth, ignoring HTTP semantics.
+• Payload-driven actions. The operation you want to perform (e.g., getUser or deleteOrder) is defined inside the request body rather than the URL or HTTP method.
+
+Level 1: Resources
+
+• Distinct URIs. Every resource or collection gets its own unique URL (e.g., /orders/123 instead of /api).
+• Noun-based naming. URIs represent nouns (things) rather than verbs (actions).
+• Continued POST reliance. At this stage, APIs often still rely on POST for most operations, passing action details in the payload while targeting specific resource URLs.
+
+
+Level 2: HTTP Verbs & Status Codes
+
+• Semantic HTTP methods. Actions are mapped strictly to standard HTTP verbs (GET to read, POST to create, PUT/PATCH to update, DELETE to remove).
+• Idempotency rules. GET, PUT, and DELETE requests must produce the same result regardless of how many times they are repeated.
+• Standardized status codes. Responses communicate outcomes using proper HTTP codes—such as 200 OK, 201 Created, 400 Bad Request, 404 Not Found, and 409 Conflict—rather than returning 200 OK with an error message inside the body.
+
+Level 3: Hypermedia Controls (HATEOAS)
+
+• Hypermedia As The Engine Of Application State. Responses include clickable links alongside the requested data.
+• Self-discoverability. Clients do not need to hard-code URL structures; they navigate the API by following the rel (relation) and href links provided in the server's response.
+• State-driven actions. The API only returns links for actions currently valid for that resource's state (e.g., an unpaid order includes a pay link, whereas a shipped order includes a track link)
+
+
+ASP.NET Web API Development - 
+
+	1) Controller Based Development
+		Controller as a Class and Model [Data]
+		JWT - JSON Web Token [Authorization]
+	2) Minimal APIs [Function]
+
+Testing API Operations can be done with - 
+	1) Http
+	2) Swagger
+
+Verbs/Actions - GET/POST/PUT/PATCH/DELETE/HEAD/OPTIONS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

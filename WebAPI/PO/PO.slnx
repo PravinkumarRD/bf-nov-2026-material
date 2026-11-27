@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="PO.Api/PO.Api.csproj" />
+  <Project Path="PO.Application/PO.Application.csproj" />
+  <Project Path="PO.Dal/PO.Dal.csproj" />
+  <Project Path="PO.Models/PO.Models.csproj" />
+  <Project Path="PO.Repositories/PO.Repositories.csproj" />
+</Solution>

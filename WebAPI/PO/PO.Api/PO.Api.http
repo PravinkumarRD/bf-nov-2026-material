@@ -1,0 +1,10 @@
+@PO.Api_HostAddress = http://localhost:5235
+
+GET {{PO.Api_HostAddress}}/api/customers
+Accept: application/json
+
+###
+GET {{PO.Api_HostAddress}}/api/customers/1
+Accept: application/json
+
+###
